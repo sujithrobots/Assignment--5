@@ -16,9 +16,9 @@ import io.opentelemetry.exporter.logging.SystemOutLogRecordExporter;
 public class assignment_5 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	
 		WebDriverManager.chromedriver().setup();
-		// WebDriver driver = new ChromeDriver();
+		WebDriver driver = new ChromeDriver();
 
 		assignment_5 m1 = new assignment_5();
 		m1.method1();
